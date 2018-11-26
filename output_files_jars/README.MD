@@ -1,0 +1,1 @@
+Please place the required JAR files(BOBJReportDetails.jar) generated from the eclipse and binary libraries in this folder.
