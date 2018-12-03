@@ -43,6 +43,61 @@ RPT_CUID varchar(4000),
 PARENT_FOLDER_ID varchar(4000)
 )
 
+Useful Links
+================
+http://help.sap.com/saphelpiis_sbo42sp1sl-sdk/frameset.htm?45f1ee226e041014910aba7db0e91070.html
+https://archive.sap.com/discussions/thread/3582257
+https://github.com/starschema/business-objects-universe-extractor
+
+
+To Deploy the BI Semantic Layer Java SDK in a Non-OSGI Eclipse Configuration – BO Version 4.2
+=============================================================================================
+BI Semantic Layer Java SDK Event Workflow
+The following steps represent the event workflow that is common to all BI Semantic Layer Java SDK samples that edit an object of the Semantic Layer. This is also the basic, essential workflow that you should apply in any development project that uses the SDK.
+1.	An SDK context is created.
+2.	A session is created in the CMS repository and attached to the context.
+3.	The context instantiates a service.
+4.	The necessary resources are loaded in memory using the service.
+5.	Operations are performed on the objects as on a Java bean to edit it.
+6.	The resources are saved using the service. Most security and integrity controls are performed during this step.
+7.	The resources are released using the service.
+8.	The context is released using the service.
+9.	The session is logged off.
+Steps to create a JAVA Project:
+Creating Sessions
+Loading Services
+Using Factories
+Instantiating Resources
+SDK Object Models
+A series of models defines the objects that are used by the SDK. The following sections give some details about these objects. For more information, see the SAP BusinessObjects BI Semantic Layer Java SDK Object Model Diagrams at http://help.sap.com:   Analytics   Business Intelligence   SAP BusinessObjects Business Intelligence platform 4.2   Development Information  .
+
+In this section:
+Resources
+Data Foundations
+Business Layers
+Business Layer Items
+Display Formats
+Lists of Values
+Parameters and Answers
+Security Profiles
+Connections
+
+
+
+
+Saving Objects
+Checking Objects
+Releasing Objects
+Raising Errors
+
+Go to Run -> Run Configuration
+ 
+
+ 
+Load Required Drivers
+ngdbc.jar file for SAP HANA Connectivity
+ojdbc6.jar for Oracle Database Connectivity
+ 
 
 
 
